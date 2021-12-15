@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+* {
+    font-family: 'Orbitron', sans-serif;
+}
+body , html , h1{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+ * {
+    cursor: none !important;
+ }
+body {
+    animation: colorb2 25s infinite linear;
+    height: 100vh;
+}
+header {
+    z-index: 150;
+    position: relative;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    animation: 25s colorb2 infinite linear;
+}
+.homebtn {
+    position: absolute;
+    left: 25px;
+    cursor: pointer;
+    animation: 25s color infinite linear ;
+    font-size: 1.5em;
+    padding: 15px;
+}
+
+
+.homebtn::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0px;
+    height: 0px;
+    border: 0px solid currentColor;
+    border-right: none !important;
+    transform: translateY(-25%);
+    transition: 0.25s 0.25s ease-in-out, width 0.25s ease-in-out  ;
+}
+.homebtn::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 0px;
+    height: 0px;
+    border: 0px solid currentColor;
+    border-left: none !important;
+    transform: translateY(-25%);
+    transition: 0.25s 0.25s ease-in-out, width 0.25s ease-in-out  ;
+}
+.homebtn:hover::after , .homebtn:hover::before  {
+    width: 50%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border: 1px solid currentColor;
+    transition: 0.25s ease-in-out, width 0.25s 0.25s ease-in-out  ;
+}
+
+
+.burgeur {
+    cursor: pointer;
+    display: flex !important;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 10vh;
+    width: 10vh;
+    transform: translateY(0vh) rotate(0deg);
+    z-index: 4444445;
+}
+.burgeur:focus .burgerhaut , .burgeur:focus-within .burgerhaut {
+    transform: translateY(2.5vh) rotate(45deg);
+}
+.burgeur:focus .burgerbas , .burgeur:focus-within .burgerbas {
+    transform: translateY(-3.25vh) rotate(-45deg);
+}
+.burgeur:focus .burgermilleux , .burgeur:focus-within .burgermilleux {
+    opacity: 0;
+    transition: none;
+}
+
+
+
+.burgermilleux {
+    transition: 0.2s 0.3s cubic-bezier(1,-0.02,.31,1.52);
+}
+.burgerhaut {
+    transition: 0.5s cubic-bezier(1,-0.02,.31,1.52);
+}
+    .burgerbas {
+    transition:  0.5s cubic-bezier(1,-0.02,.31,1.52);
+}
+    .burgeur span {
+    height: 1.5vh;
+    width: 10vh;
+    animation: colorb 25s infinite linear;
+    border-radius: 5px; 
+}
+
+@keyframes spana {
+    0% {
+        opacity: 0.25;
+        width: 0px;
+        height: 0px;
+    }
+    100% {
+        opacity: 0;
+        width: 100vw;
+        height: 100vw;
+    }
+}
+
+#mouse {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: black;
+    z-index: 5555556;
+    transition: 0.05s linear;
+    position: fixed;
+    transform: translate(-50%,-50%);
+}
+#mouse h1{
+    color: currentColor;
+}
+#mouselerp {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    z-index: 5555556;
+    transition: 0.1s linear;
+    position: fixed;
+    border: 5px solid currentColor;
+    transform: translate(-50%,-50%);
+}
+
+
+.oeilmort {
+    width: 0px !important;
+    height: 0px !important;
+    border: none !important;
+    animation: none !important;
+}
+.oeilmort::after {
+    top: -40vh;
+    left: -0vh;
+    transform: translate(-50%,-50%);
+    position: fixed;
+    content: '';
+    height: 40vh;
+    width: 5vh;
+    background: black;
+}
+.oeilmort::before {
+    top: -40vh;
+    left: -0vh;
+    transform: translate(-50%,-50%);
+    position: fixed;
+    content: '';
+    height: 5vh;
+    width: 40vh;
+    background: black;
+}
+
+
+.thème {
+    position: absolute;
+    right: 1vh;
+    top: 1vh;
+    height: 80%;
+    width: 8vh;
+    border-radius: 50%;
+    animation: colorb 25s infinite linear;
+}
+.thème::after {
+    content: '';
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    top: 10%;
+    transform: translateX(-20%);
+    animation: colorb2 25s infinite linear;
+}
+.thème::before {
+    width: 0px;
+}

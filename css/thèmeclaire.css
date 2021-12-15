@@ -1,0 +1,61 @@
+:root {
+    --accentcouleur : #5b4181;
+}
+/* style claire */
+@keyframes colorb2 {
+0% {
+    background:#fdd ;
+}
+33% {
+    background:#dfd ;
+}
+66% {
+    background:#ddf ;
+}
+100% {
+    background:#fdd ;
+}
+}
+@keyframes colorb {
+0% {
+    background:#c77 ;
+}
+33% {
+    background:#7c7 ;
+}
+66% {
+    background:#77c ;
+}
+100% {
+    background:#c77 ;
+}
+}
+
+@keyframes color2 {
+0% {
+    color:#fdd;
+}
+33% {
+    color:#dfd;
+}
+66% {
+    color:#ddf;
+}
+100% {
+    color:#fdd;
+}
+}
+@keyframes color {
+0% {
+    color:#c77;
+}
+33% {
+    color:#7c7;
+}
+66% {
+    color:#77c;
+}
+100% {
+    color:#c77;
+}
+}

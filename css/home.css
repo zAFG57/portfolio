@@ -1,0 +1,325 @@
+.navlink {
+    position: absolute;
+    height: 90vh !important;
+    width: 100%;
+    perspective: 100px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    transform-style: preserve-3d;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    transition: 0.5s ease-in-out;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.navlink::-webkit-scrollbar{
+    display: none;
+  }
+.navlink section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header {
+    animation: colorb 25s infinite linear;
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+    top: 0px;
+}
+.content {
+    top: 0vh;
+    position: relative !important;
+    height: 400vh;
+    width: 100%;
+    display: block !important;
+    animation: colorb2 25s infinite linear;
+}
+.zcontent {
+    top: 0vh;
+    position: sticky !important;
+    animation: colorb 25s infinite linear;
+    height: 90vh;
+    width: 100%;
+}
+.home {
+    z-index: 55;
+}
+.oeil {
+    position: absolute;
+    height: 40vh;
+    width: 40vh;
+    border-radius: 0% 50% 0 50%;
+    transform: rotate(-45deg);
+    border: 20px solid currentColor;
+    color: #000;
+    animation: oeila 5s infinite linear;
+    transition: 0.15s bottom linear, 0.15s right linear;
+}
+.bouche {
+    position: absolute;
+    height: 20vh;
+    width: 40vh;
+    color: #000;
+    border-radius: 0% 0% 50% 50%;
+    transform: rotate(0deg);
+    border: 20px solid currentColor;
+    animation: bouchea 7s infinite linear;
+}
+
+.homeh {
+    position: sticky !important;
+    font-size: 1.5em;
+    text-decoration: underline;
+    top: 0px;
+}
+
+.photo {
+    top: 0px;
+    position: sticky;
+    width: 40%;
+    height: 90vh;
+    background: url('../assets/ludo.jpg');
+    background-position: center;
+    object-fit: contain;
+    background-size: 100%;
+}
+.text {
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    width: 60%;
+    height: max-content;
+    font-size: 1.5em;
+    text-align: center;
+    animation: color 25s infinite linear;
+}
+.text p {
+    margin-top: 50vh;
+    margin-bottom: 50vh;
+    padding: 30px;
+}
+.text h1 {
+    top: 0px;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: colorb2 25s infinite linear;
+    font-size: 3em;
+}
+
+
+
+
+
+
+@keyframes bouchea {
+    0% {
+        transform: skew(0deg) translateX(0%);
+    }
+    23% {
+        transform: skew(0deg) translateX(0%);
+    }
+    25% {
+        transform: skew(25deg) translateX(10%);
+    }
+    27% {
+        transform: skew(-25deg) translateX(-10%);
+    }
+    29% {
+        transform: skew(0deg) translateX(0%);
+    }
+    73% {
+        transform: skew(0deg) translateX(0%);
+    }
+    75% {
+        transform: skew(-25deg) translateX(-10%);
+    }
+    77% {
+        transform: skew(25deg) translateX(10%);
+    }
+    79% {
+        transform: skew(0deg) translateX(0%);
+    }
+    100% {
+        transform: skew(0deg) translateX(0%);
+    }
+}
+@keyframes oeila {
+    0% {
+        height: 40vh;
+        transform: rotate(-45deg);
+    }
+    23% {
+        height: 40vh;
+        transform: rotate(-45deg);
+    }
+    25% {
+        height: 0vh;
+        transform: skew(40deg) rotate(-15deg);
+    }
+    27% {
+        height: 40vh;
+        transform: rotate(-45deg);
+    }
+    48% {
+        height: 40vh;
+        transform: rotate(-45deg);
+    }
+    50% {
+        height: 0vh;
+        transform: skew(40deg) rotate(-15deg);
+    }
+    52% {
+        height: 40vh;
+        transform: rotate(-45deg);
+    }
+    100% {
+        height: 40vh;
+        transform: rotate(-45deg);
+    }
+}
+
+
+
+
+
+.oeil {
+    color: var(--accentcouleur);
+}
+.bouche {
+    color:var(--accentcouleur);
+}
+#mouse {
+    background-color: var(--accentcouleur);
+    color: var(--accentcouleur);
+}
+#mouselerp {
+    color: var(--accentcouleur);
+}
+.header {
+    color: var(--accentcouleur);
+}
+.oeilmort::before{
+    background: var(--accentcouleur);
+}
+.oeilmort::after{
+    background: var(--accentcouleur);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.svg{
+    animation: color2 25s infinite linear;
+    height: 80%;
+}
+.orevoir {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: color2 25s infinite linear;
+}
+.orevoir .contactspan {
+    width: max-content;
+    filter: saturate(60%);
+    text-shadow: 
+    0.5px 0.5px currentColor,
+    1px 1px currentColor,
+    1.5px 1.5px currentColor;
+    overflow: hidden;
+    margin-left: 1rem;
+}
+.contactspan  .barre{
+    position: relative;
+    height: 3px;
+    width: 100%;
+    background: currentColor;
+    transform: translate(-200%);
+    left: 100%;
+    transform-origin:100%;
+    transition: transform 0s 0.25s,left 0.25s ease-in-out;
+}
+.contactspan:hover .barre {
+    left: 0;
+    transform: translate(0%);
+    transform-origin:0;
+    transition: transform 0.25s ease-in-out;
+}
+#h1orevoir {
+    display: flex;
+}
+.sociallink {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60vw;
+    height: 100px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+.social {
+    height: 100px;
+    width: 100px;
+    animation: color2 25s infinite linear;
+    transition: 0.25s ease-in-out box-shadow;
+    border-radius: 50%;
+    padding: 25px;
+}
+
+
+.social:hover {
+    box-shadow: 
+    0px 0px 0px 10px var(--accentcouleur),
+    0px 0px 0px 20px currentColor,
+    0px 0px 0px 30px var(--accentcouleur),
+    0px 0px 0px 40px currentColor;
+}
+
+
+/* 
+.social::after {
+    content: '';
+    position: relative;
+    left: 0;
+    width: 0px;
+    height: 0px;
+    border: 0px solid currentColor;
+    border-right: none !important;
+    transition: 0.25s ease-in-out, width 0.25s 0.25s ease-in-out  ;
+}
+.social::before {
+    content: '';
+    position: relative;
+    right: 0;
+    width: 0px;
+    height: 0px;
+    border: 0px solid currentColor;
+    border-left: none !important;
+    transition: 0.25s ease-in-out, width 0.25s 0.25s ease-in-out ;
+}
+.social:hover::after , .social:hover::before  {
+    width: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 1px solid currentColor;
+} */

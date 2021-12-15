@@ -1,0 +1,128 @@
+.contacth {
+    font-size: 1.5em;
+    text-decoration: underline;
+    position: sticky;
+    top: 0px;
+}
+.contactsection {
+    height: 90vh;
+    width: 100vw;
+    animation: colorb2 25s infinite linear;
+    z-index: 2;
+    position: absolute;
+}
+.titre {
+    position: absolute;
+    top: 10vh;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;
+    animation: color 25s infinite linear;
+}
+#form {
+    width: 60vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.txtfield {
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+
+.txtfield input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    animation: color 25s infinite linear;
+}
+
+.txtfield label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: min(3.5vw,16px);
+    pointer-events: none;
+    transition: .5s;
+    animation: color 25s infinite linear;
+    filter: saturate(0);
+}
+
+.txtfield span::before {
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    animation: colorb 25s infinite linear;
+    transition: .5s;
+}
+
+.txtfield input:focus~label,
+.txtfield input:valid~label {
+    top: -5px;
+    filter: saturate(0.9);
+}
+
+.txtfield input:focus~span::before,
+.txtfield input:valid~span::before {
+    width: 100%;
+}
+.sendbtn {
+    position: relative;
+    padding: 15px;
+    border-radius: 15px;
+    animation: color 25s infinite linear, colorb2 25s infinite linear;
+    color: #fff;
+    width: max-content;
+    text-align: center;
+    transform: translateX(-50%);
+    left: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    border: 0px;
+}
+.sendbtn::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0px;
+    height: 0px;
+    border: 0px solid currentColor;
+    border-right: none !important;
+    transition: 0.25s 0.25s ease-in-out, width 0.25s ease-in-out  ;
+}
+.sendbtn::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 0px;
+    height: 0px;
+    border: 0px solid currentColor;
+    border-left: none !important;
+    transition: 0.25s 0.25s ease-in-out, width 0.25s ease-in-out ;
+}
+.sendbtn:hover::after , .sendbtn:hover::before  {
+    width: 50%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border: 1px solid currentColor;
+    transition: 0.25s ease-in-out, width 0.25s 0.25s ease-in-out  ;
+}

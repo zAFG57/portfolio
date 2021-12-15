@@ -1,0 +1,54 @@
+.projeth {
+    position: sticky !important;
+    font-size: 1.5em;
+    text-decoration: underline;
+    top: 0px;
+    height: 90vh;
+    width: 100vw;
+}
+.sujetdavenir{
+    z-index: 50;
+    position: absolute;
+    width: 100vw;
+    animation: colorb2 25s infinite linear;
+}
+.caroselle {
+    position: sticky;
+    top: 0px;
+    padding-top: 5vh;
+    left: 0px;
+    width: 300vw;
+    overflow: hidden;
+    font-size: 2em;
+    display: flex;
+    animation:  color 25s infinite linear,
+                colorb2 25s infinite linear,
+                caroselle 5s infinite linear;
+}
+.caroselle:nth-child(3){
+    animation:  color 25s infinite linear,
+                colorb2 25s infinite linear,
+                caroselle 7s infinite linear reverse;
+}
+.caroselle >* {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 150vw;
+}
+@keyframes caroselle {
+    0%{
+        transform: translate(0px);
+    }
+    100%{
+        transform: translate(-50%);
+    }
+}
+.repartion p {
+    margin-top: 15vw;
+    margin-bottom: 15vw;
+    padding: 0px 20vw;
+    font-size: 1.5em;
+    animation: color 25s infinite linear;
+    line-height: 200%;
+}
