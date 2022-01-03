@@ -10,3 +10,7 @@ et enfin, en javascript pour les effet come:
 * le menu de navigation
 
 certain effect ne sont cepandant pas géré par du js mais par du css comme le dark et white mode ou les couleurs qui alterne progresivement à travers le spectre des couleurs.
+
+l'envoie du mail et le passage de withe a dark mode se fait en php grace à un cocki (pas plus de 5Ko).
+
+les boutons de contact par mail ou téléphone sont quand a eux géré avec les fonction native d'HTML5
