@@ -219,7 +219,12 @@ function neplusvoirlesite(){
 }
 function contactefunction(){
     setTimeout(() => {
-        document.getElementsByClassName("contact")[0].click()
-    }, 10);
-    contact = document.getElementsByClassName("contact")[0].scrollTop = contact = document.getElementsByClassName("contact")[0].scrollHeight;
+        wtf()
+    }, 150)
+    setTimeout(() => {
+        contactnav()
+    }, 800)
+    setTimeout(() => {
+        document.getElementsByClassName("contact")[0].scrollTop = document.getElementsByClassName("contact")[0].scrollHeight;
+    }, 1500)
 }

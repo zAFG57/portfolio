@@ -41,7 +41,7 @@
             </div>
             <div class="caroselle">
                 <?php
-                $titre = 'hight-way-of-living.com';
+                $titre = 'cady-bite.com';
                 for ($y=0; $y < 2; $y++) { 
                     echo '<div>';
                     for ($i=0; $i < 3; $i++) { 
@@ -51,21 +51,25 @@
                 }
                 ?>
             </div>
-            <div class="repartion voirlesite" onclick="window.location='../marg'">
+            <div class="repartion voirlesite" onclick="alert('le site n\'est pas encore disponible mais vous pouvez voir le code source sur mon git-hub. Bien cordialement')">
                 <p>
-                    hight-way-of-living.com a été ma premiere 
-                    experience du code dans le monde du travaile.
-                    je l'ai codé seule (front end et back end) et 
-                    j'ai mis en place le server. En some je l'ai crée
-                    de A à Z. Ce site est le portfolio de Marjorie Genest.
-                    Sur ce site les utilisateur peuvent s'inscrire à
-                    une news letters affin que Marjorie puisse tenir
-                    ces abonné au courant. De sont coté, elle n'a qu'a rédiger 
-                    un mail, apuillé sur un bouton et toute les personnes
-                    inscrite ressoive le mail. Ce projet m'a permis de 
-                    confirmer mes connaisance en html js css et php
-                    mais il m'a permis de beaucoup progréser en python.
-
+                    cady-bite.com est un site de e-comerce sur lequel vous pouvez 
+                    commender deux portes clef qui sont imprimer en 3d.
+                    Ses portes clefs sont des desingns originaux créer par mes soins.
+                    Il sagit d'un cady-bite: un jeton de cady en forme de fallus.
+                    completement fonctionelle et compatible avec tout les cady disponible
+                    en grande surface. Le deuxième porte clef est un décapsuchatte: il sagit 
+                    d'un décapsuleur de bière en forme de vagin. Lui aussi fonctionelle, 
+                    résitant et d'une simpliciter d'utilisation infantile.<br/></br>
+                    
+                    ce site est coder contrairement au précédent en python. J'utilise 
+                    flask qui me permet de mettre en place mon serveur et de gérer 
+                    tout mes requette affin de pouvoir sécuriser correctement se site.
+                    Pour le payment, j'utilise le sdk de paypal. que je sécurise en 
+                    générant une url unique pour chaque utilisateur utilisable une seule fois.
+                    Ainsi, je suis sûre a 100% que chaque commande s'acompagne d'un payment et 
+                    que chaque payment d'un utilisateur est bien une commande pour le produit 
+                    qu'il désir.
                 </p>
             </div>
 
@@ -73,6 +77,7 @@
 
 
             </div>
+        </div>
     </div>
 
 

@@ -31,7 +31,7 @@
 .content {
     top: 0vh;
     position: relative !important;
-    height: 400vh;
+    height: 500vh;
     width: 100%;
     display: block !important;
     animation: colorb2 25s infinite linear;
