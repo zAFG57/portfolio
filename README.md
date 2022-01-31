@@ -1,16 +1,16 @@
 **Mon site portfolio**
 ---
-mon [portfolio](https://ludovic.yj.fr/portfolio) est un site coder en php pour le bac-end,
-en html et css pour le contenue en lui même 
-et enfin, en javascript pour les effet come:
+Mon [portfolio](https://ludovic.yj.fr/portfolio) est un site codé en php pour le bac-end,
+en html et css pour le contenu en lui même 
+et enfin, en javascript pour les effets comme:
 
-* la souris en deux partie qui à du lerp.
-* les hovers des élement cliquable.
-* les span apparaissant au click.
+* la souris en deux parties qui a du lerp.
+* les hovers des éléments cliquables.
+* les span apparaissent au click.
 * le menu de navigation
 
-certain effect ne sont cepandant pas géré par du js mais par du css comme le dark et white mode ou les couleurs qui alterne progresivement à travers le spectre des couleurs.
+Certains effets ne sont cepandant pas gérés par du js mais par du css comme le dark et le white mode où les couleurs alternent progresivement à travers le spectre des couleurs.
 
-l'envoie du mail et le passage de withe a dark mode se fait en php grace à un cocki (pas plus de 5Ko).
-
-les boutons de contact par mail ou téléphone sont quand a eux géré avec les fonction native d'HTML5
+L'envoi du mail et le passage de withe au dark mode se fait en php grace à un cookie (pas plus de 5Ko).
+ 
+les boutons de contact par mail ou téléphone sont quand à eux gérés avec les fonctions natives d'HTML5
