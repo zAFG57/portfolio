@@ -22,7 +22,7 @@
                 }
                 ?>
             </div>
-            <div class="repartion voirlesite" onclick="window.location='http://localhost:8081'">
+            <div class="repartion voirlesite" onclick="window.location='https://ludovic.yj.fr/'">
                 <p>
                     Mes-réparation.com est un projet que j'ai cloder
                     avec l'aide d'un ami lui aussi dévellopeur. Ce site internette 
