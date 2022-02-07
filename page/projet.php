@@ -51,7 +51,7 @@
                 }
                 ?>
             </div>
-            <div class="repartion voirlesite" onclick="alert('le site n\'est pas encore disponible mais vous pouvez voir le code source sur mon git-hub. Bien cordialement')">
+            <div class="repartion voirlesite" onclick="alert('le site n\'est pas encore disponible mais vous pouvez voir le code source sur mon git-hub: https://github.com/zAFG57/portfolio')">
                 <p>
                     cady-bite.com est un site de e-comerce sur lequel vous pouvez 
                     commender deux portes clef qui sont imprimer en 3d.
