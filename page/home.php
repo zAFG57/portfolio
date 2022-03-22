@@ -14,17 +14,17 @@
                 <h1>qui suis-je?</h1>
                 <p>
                     Bonjour, je m'appelle Ludovic Castiglia. Je suis un étudiant français 
-                    de 17 ans qui est passionée par l'informatique. Je pratique également le 
-                    handball au niveaux championnat de france.
+                    de 17 ans qui est passionné par l'informatique. Je pratique également le 
+                    handball au niveau championnat de France.
                 </p>
                 <h1>mes début dans le code</h1>
                 <p>
                     depuis tout petit, j'apprend en autodidaxie. lorsque j'ai découvert le code, 
-                    je m'y suis tout de suite passioné car dans se milleux, vous n'avez jamais
-                    finit d'pprendre. Il y a toujours un langage, une fonction ou une logique à découvrir.
-                    de plus l'aspect créatif du dévellopement me plait beaucoup. je pense également
-                    que le code est bien plus qu'une passion dans la messure ou sa permet a 
-                    tout le monde de soit recréer une copi de flappy bird ou alors de devenir
+                    je m'y suis tout de suite passionné car dans ce mileu, vous n'avez jamais
+                    fini d'apprendre. Il y à toujours un langage, une fonction ou une logique à découvrir.
+                    de plus l'aspect créatif du développement me plait beaucoup. je pense également
+                    que le code est bien plus qu'une passion dans la messure ou ça permet à 
+                    tout le monde de soit recréer une copie de flappy bird ou alors de devenir
                     bill gate. Enfin, le code permet de réduire les inégaliter dans le sense ou 
                     tout se que vous apprendrer lors de vos étude se trouve sur internet.
                 </p>
@@ -37,21 +37,21 @@
                     Ce site est coder en php html css et js ce qui nous permet d'avoir un site sécuriser et qui 
                     peut se modifier lui même en fonction des besoins.</br></br>    
         
-                    actuellement, je travail en solo sur un projet d'opptimisation de mon experience 
-                    avec l'informatique. Se logiciel que je développe a plusieur usage. Premieremment 
-                    cet un gestionaire de mots de passe qui fonctionne avec un systhème de clef physique 
-                    (un simple clef usb). Il permet d'écrire automatiquement un mots de passe à la suite 
-                    d'un short cut que l'on peut configurer à souhait. Le mots de passe son chiffré avec des clef qui 
-                    son stocker a moitier dans la clef physique et dans votre ordinateur se qui permet de ne pas
-                    risquer de vous faire voler vos mots de passe si vous perder votre clef physique.
-                    De plus, les clef changent à chaque utilisation (comme les signaut envoyer par les clef de voiture) 
-                    affin de garantir un sécuriter maximum.
-                    la deuxième fonctionaliter est la possibiliter de lancer des programmes en effectant un short cut
-                    lui aussi configurable. Ansi, vous pouver presque tout faire depuis votre clevier (comme si vous étier 
-                    dans un shell linux mais sous windows). Pour lancer vs code vous n'aurrez qu'a apuier sur #vscode et paf,
-                    vscode aparait comme par magie...</br></br>
+                    actuellement, je travaille en solo sur un projet d'optimisation de mon expérience 
+                    avec l'informatique. Ce logiciel que je développe à plusieurs usages. Premieremment 
+                    c'est un gestionnaire de mots de passe qui fonctionne avec un systhème de clef physique 
+                    (un simple clef usb). Il permet d'écrire automatiquement un mot de passe à la suite 
+                    d'un short cut que l'on peut configurer à souhait. Les mots de passes sont chiffré avec des clefs qui 
+                    sont stockés à moitier dans la clef physique et dans votre ordinateur ce qui permet de ne pas
+                    risquer de vous faire voler vos mots de passe si vous perdez votre clef physique.
+                    De plus, les clefs changent à chaque utilisation (comme les signaux envoyés par les clefs de voiture) 
+                    afin de garantir une sécurité maximum.
+                    la deuxième fonctionalité est la possibilité de lancer des programmes en effectuant un short cut
+                    lui aussi configurable. Ansi, vous pouvez presque tout faire depuis votre clevier (comme si vous étiez 
+                    dans un shell linux mais sous windows). Pour lancer vs code vous n'aurez qu'a appuyer sur ctrl + v + s et paf,
+                    vscode apparaît comme par magie...</br></br>
 
-                    pour plus d'information, je vous invite à aller voir le projet sur mon git-hub disponible plus bas.
+                    pour plus d'informations, je vous invite à aller voir le projet sur mon git-hub disponible plus bas.
                    
                 </p>
                 
