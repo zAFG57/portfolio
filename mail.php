@@ -25,7 +25,7 @@ if (isset($_POST['utilisateur']) && isset($_POST['message'])) {
 
                 <?php
             }else {
-                echo "<div><h1>il y a une erreur, verifier votre adress email</h1></div>";
+                echo "<div><h1>il y a une erreur, verifiez votre adresse email</h1></div>";
             }  
             $message = '';
             $mail = '';
@@ -48,4 +48,4 @@ if (isset($_POST['utilisateur']) && isset($_POST['message'])) {
 
 
 
-                        <!--        fin envois de mail           -->
+                        <!--        fin envoi de mail           -->
