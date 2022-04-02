@@ -1,6 +1,6 @@
 **Mon site portfolio**
 ---
-Mon [portfolio](https://ludovic.yj.fr/portfolio) est un site codé en php pour le bac-end,
+Mon [portfolio](https://ludovic.go.yj.fr/portfolio) est un site codé en php pour le bac-end,
 en html et css pour le contenu en lui même 
 et enfin, en javascript pour les effets comme:
 
