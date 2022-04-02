@@ -52,3 +52,14 @@
     animation: color 25s infinite linear;
     line-height: 200%;
 }
+
+
+
+.git_hub {
+    text-decoration: none;
+    font-size: 1.25em;
+    animation: color 25s infinite linear;
+}
+.git_hub:hover {
+    text-decoration: underline;
+}

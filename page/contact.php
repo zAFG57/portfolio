@@ -4,14 +4,14 @@
     
     <div class="contact navlink" onclick="contactnav()">
         <section class="header contacth">
-            <h1>Contacter moi</h1>
+            <h1>Contactez moi</h1>
             <div class="oeil visage" id="b" onclick="oeilclickb()"></div>
         </section>
         <section class="contactsection">
             <form id="form" action="mail.php" method="post">
                 <div class="titre">
                     <h1>
-                        dit moi bonjour ...
+                        dites moi bonjour ...
                     </h1>
                 </div>
 
@@ -28,7 +28,7 @@
                 </div>
 
                 <button class="sendbtn h" >
-                    <p>envoyé moi votre message</p>
+                    <p>envoyez moi votre message</p>
                 </button>
 
             </form>

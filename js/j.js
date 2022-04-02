@@ -116,19 +116,26 @@ function paralax (){
         document.getElementById('mouselerp').style.pointerEvents = 'none';
         document.getElementById('mouse').style.pointerEvents = 'none';
 
-        document.querySelectorAll('.h').forEach( eye => {
-            eye.addEventListener('mouseover', hover); 
-            eye.addEventListener('mouseout', nohover);
+        document.querySelectorAll('.h').forEach( clicable => {
+            clicable.addEventListener('mouseover', hover); 
+            clicable.addEventListener('mouseout', nohover);
         });
         document.querySelectorAll('.oeil').forEach( eye => {
-            eye.addEventListener('mouseover', hoeil); 
+            eye.addEventListener('mouseover', hoeil);
             eye.addEventListener('mouseout', nohoeil);
         });
-        document.querySelectorAll('.voirlesite').forEach( eye => {
-            eye.addEventListener('mouseover', voirlesite); 
-            eye.addEventListener('mouseout', neplusvoirlesite);
+        document.querySelectorAll('.voirlesite').forEach( site => {
+            site.addEventListener('mouseover', voirlesite);
+            site.addEventListener('mouseout', neplusvoirlesite);
         });
-
+        document.querySelectorAll('.le_point_exe').forEach( exe => {
+            exe.addEventListener('mouseover', le_point_exe);
+            exe.addEventListener('mouseout', neplusvoirlesite);
+        });
+        document.querySelectorAll('.git_hub').forEach( git => {
+            git.addEventListener('mouseover', lien);
+            git.addEventListener('mouseout', pluslien);
+        });
 }
     
 
@@ -208,7 +215,28 @@ function voirlesite() {
     document.getElementById('mouselerp').style.width = 200 + 'px';
     document.getElementById('mouselerp').style.border = 1 + 'px solid currentColor';
 }
-function neplusvoirlesite(){
+function le_point_exe() {
+    if (lien_active) {
+        document.getElementById('mouse').innerHTML = '<h1>jouer au jeu<h1>';
+        document.getElementById('mouse').style.height = 'unset';
+        document.getElementById('mouse').style.width = 'unset';
+        document.getElementById('mouse').style.background = 'transparent';
+        document.getElementById('mouselerp').style.height = 200 + 'px';
+        document.getElementById('mouselerp').style.width = 200 + 'px';
+        document.getElementById('mouselerp').style.border = 1 + 'px solid currentColor';
+    }
+}
+lien_active = true;
+function lien() {
+    lien_active = false;
+    document.getElementById('snake_3D').onclick = function() {};
+}
+function pluslien() {
+    lien_active = true;
+    document.getElementById('snake_3D').onclick = function() {alert('téléchargement du jeux')};
+}
+function neplusvoirlesite() {
+    console.log("coucou");
     document.getElementById('mouse').innerHTML = '';
     document.getElementById('mouse').style.height = 10 +'px';
     document.getElementById('mouse').style.width = 10 +'px';
